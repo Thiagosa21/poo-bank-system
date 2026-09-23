@@ -1,12 +1,4 @@
-# =========================================================
-# SISTEMA BANCÁRIO COM POO
-# Projeto simples utilizando Programação Orientada a Objetos
-# =========================================================
-
-
-# =========================================================
 # CLASSE CONTA BANCÁRIA
-# =========================================================
 
 class ContaBancaria:
 
@@ -22,9 +14,7 @@ class ContaBancaria:
         # Lista que armazenará movimentações da conta
         self.extrato = []
 
-    # =====================================================
     # MÉTODO DE DEPÓSITO
-    # =====================================================
 
     def depositar(self, valor_deposito):
 
@@ -43,9 +33,7 @@ class ContaBancaria:
 
         print("✅ Depósito realizado com sucesso!")
 
-    # =====================================================
     # MÉTODO DE SAQUE
-    # =====================================================
 
     def sacar(self, valor_saque):
 
@@ -69,9 +57,7 @@ class ContaBancaria:
 
         print("✅ Saque realizado com sucesso!")
 
-    # =====================================================
     # MÉTODO PARA MOSTRAR SALDO
-    # =====================================================
 
     def mostrar_saldo(self):
 
@@ -83,9 +69,7 @@ Saldo: R$ {self.saldo:.2f}
 =========================
 """)
 
-    # =====================================================
     # MÉTODO DE TRANSFERÊNCIA
-    # =====================================================
 
     def transferir(self, valor_transferencia, conta_destino):
 
@@ -121,9 +105,7 @@ Saldo: R$ {self.saldo:.2f}
 
         print("✅ Transferência realizada com sucesso!")
 
-    # =====================================================
     # MÉTODO PARA MOSTRAR EXTRATO
-    # =====================================================
 
     def mostrar_extrato(self):
 
@@ -145,9 +127,7 @@ EXTRATO DE {self.titular.upper()}
         print(f"\nSaldo atual: R$ {self.saldo:.2f}")
 
 
-# =========================================================
 # CRIAÇÃO DAS CONTAS
-# =========================================================
 
 # Cria primeira conta
 conta1 = ContaBancaria(
@@ -164,9 +144,7 @@ conta2 = ContaBancaria(
 )
 
 
-# =========================================================
 # TESTES DO SISTEMA
-# =========================================================
 
 # Realiza depósito
 conta1.depositar(200)
