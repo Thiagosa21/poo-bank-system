@@ -33,5 +33,4 @@ A classe `ContaBancaria` gerencia as seguintes operações para cada conta criad
 
 ### 1. Clonar o repositório
 ```bash
-git clone [https://github.com/SEU_USUARIO/nome-do-repositorio.git](https://github.com/SEU_USUARIO/nome-do-repositorio.git)
-cd nome-do-repositorio
+
